@@ -1,0 +1,54 @@
+/* only small desktops */
+
+/* only small tablets */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .top-header .navbar .navbar-collapse ul li a{
+         padding: 5px 15px;
+    }
+
+     .top-header{
+         position: relative;
+    }
+
+     .top-header {
+         background-image: none;
+         background-color: #fff;
+    }
+     .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
+         color: #0892fd;
+    }
+
+}
+/* mobile or only mobile */
+ @media (max-width: 767px) {
+     .navbar-brand{
+         margin-left: 10px;
+         margin-right: 10px;
+    }
+     .top-header .navbar .navbar-collapse ul li a{
+         padding: 10px 15px;
+    }
+
+     .top-header{
+         position: relative;
+    }
+   
+     .navbar-brand img {
+         width: 175px;
+    }
+     .top-header {
+         background-image: none;
+         background-color: #ecedef;
+    }
+     
+     a.navbar-brand {
+         left: 0;
+         position: relative;
+    }
+     
+     .top-header #navbar-wd {
+         padding-right: 0;
+    }
+    
+}
+ 
